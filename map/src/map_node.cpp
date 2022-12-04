@@ -56,7 +56,7 @@ int main(int argc,char* argv[])
                 int obstacle_x =  -sin(angle)*(tof_range/RESOLUTION) + off_x;
                 int obstacle_y =  cos(angle)*(tof_range/RESOLUTION) + off_y;
                 grid[obstacle_x][obstacle_y] = 100;
-                ROS_INFO("%d,%d",obstacle_x,obstacle_y);
+                //ROS_INFO("%d,%d",obstacle_x,obstacle_y);
                 std::vector<int8_t> grid_flatten;
                 for(int i=0;i<WIDTH;i++)
                 {
