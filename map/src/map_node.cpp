@@ -1,4 +1,4 @@
-#define RESOLUTION 0.1
+#define RESOLUTION 0.05
 #define WIDTH 1000
 #define HEIGHT 1000
 
