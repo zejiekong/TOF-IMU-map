@@ -1,0 +1,12 @@
+<launch>
+	<!-- IMU -->
+	<include file="$(find witmotion_ros)/launch/wt901.launch"/>
+	<include file="$(find imu_complementary_filter)/launch/complementary_filter.launch"/>
+
+	<!-- TOF -->
+	<include file="$(find nlink_parser)/launch/tofsense.launch"/>
+	<node name="tof2laser" pkg="nlink_parser" type="tof_to_laser.py"/>
+
+        <!-- mapping node -->
+	<!-- <node name="mapping" pkg="map" type="map_node" output="screen"/> -->
+</launch>

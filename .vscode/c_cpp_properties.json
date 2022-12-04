@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/zejie/Desktop/map_ws/devel/include/**",
+        "/home/zejie/Desktop/exp_5/devel/include/**",
+        "/home/zejie/Desktop/f1tenthlab/f1tenthlab_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/zejie/Desktop/f1tenthlab/f1tenthlab_ws/src/f1tenth_simulator/include/**",
+        "/home/zejie/Desktop/map_ws/src/imu_complementary_filter/include/**",
+        "/home/zejie/Desktop/exp_5/src/imu_filter_madgwick/include/**",
+        "/home/zejie/Desktop/map_ws/src/openslam_gmapping/include/**",
+        "/home/zejie/Desktop/smb_ws/src/smb_common_v2/smb_gazebo/include/**",
+        "/home/zejie/Desktop/smb_ws/src/smb_highlevel_controller/include/**",
+        "/home/zejie/Desktop/map_ws/src/witmotion_IMU_ros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

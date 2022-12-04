@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/zejie/Desktop/map_ws/devel/lib/python3/dist-packages",
+        "/home/zejie/Desktop/exp_5/devel/lib/python3/dist-packages",
+        "/home/zejie/Desktop/f1tenthlab/f1tenthlab_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/zejie/Desktop/map_ws/devel/lib/python3/dist-packages",
+        "/home/zejie/Desktop/exp_5/devel/lib/python3/dist-packages",
+        "/home/zejie/Desktop/f1tenthlab/f1tenthlab_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

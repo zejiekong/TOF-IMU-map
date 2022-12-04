@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="witmotion_ros" name="calibration" type="calibration.py" output="screen"/>
+    <rosparam command="load" file="$(find witmotion_ros)/config/wt901.yml" />
+    <arg name="imu_start_delay" default="7.0" /> 
+    <node name="witmotion_imu" pkg="witmotion_ros"  type="witmotion_ros_node" launch-prefix="bash -c 'sleep $(arg imu_start_delay); $0 $@' " output="screen"/>
+</launch>
